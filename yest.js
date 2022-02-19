@@ -19,6 +19,3 @@ const func11 = (x, y, z) => {
     x + y + z;
     return 0;
 }
-
-console.log(func2(6));
-
