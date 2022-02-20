@@ -34,4 +34,6 @@ const players = [
 ];
 
 const age = players.map(player => player.age > 30);
-console.log(age);
+const age40p = players.filter(player => player.age > 40);
+const age40pf = players.find(player => player.age > 40);
+console.log(age40pf);
