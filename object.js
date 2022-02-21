@@ -19,6 +19,7 @@ const accessory = {
 const { processor, ram, graphics } = myLap;
 const [a, b, c, d, e] = [1, 2, .2, 25, 55];
 const [x, y] = [1, 2, .2, 25, 55];
+const [, , , s] = [1, 2, .2, 25, 55];
 // optional chaining
 const xv = myLap?.processor?.name;
 const xy = myLap?.processor?.cache;
